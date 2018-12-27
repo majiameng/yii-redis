@@ -1,0 +1,26 @@
+{
+  "name": "tinymeng/yii2-redis",
+  "description": "Redis Cache, Session for the Yii2",
+  "type": "yii2-extension",
+  "keywords": [
+    "tinymeng","yii2","redis", "yii2-redis"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "JiaMeng Ma",
+      "email": "666@majiameng.com",
+      "homepage": "https://www.majiameng.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0.6",
+    "predis/predis": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "tinymeng\\redis\\": "src"
+    }
+  }
+}
