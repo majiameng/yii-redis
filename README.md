@@ -24,7 +24,7 @@ composer require  tinymeng/yii2-redis dev-master
 单机：
 ```
 'redis' => [
-            'class' => 'mojifan\redis\Connection',
+            'class' => 'tinymeng\redis\Connection',
             'servers'=>[
                 ['host' => '127.0.0.1','port'=> 6379],
             ],
@@ -34,7 +34,7 @@ redis集群：
 
 ```
 'redis' => [
-            'class' => 'mojifan\redis\Connection',
+            'class' => 'tinymeng\redis\Connection',
             'servers'=>[
                 ['host' => '127.0.0.1','port'=> 6379],
                 ['host' => '127.0.0.1','port'=> 6380],
@@ -49,12 +49,12 @@ redis集群：
 ### session组件配置
 ```
         'session' => [
-            'class' => 'mojifan\redis\Session',
+            'class' => 'tinymeng\redis\Session',
         ],
 ```
 ### cache组件配置
 ```
 'cache' => [
-            'class' => 'mojifan\redis\Cache',
+            'class' => 'tinymeng\redis\Cache',
         ],
 ```
